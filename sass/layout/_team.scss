@@ -50,10 +50,6 @@
   &:hover,
   &:focus {
     background-color: var(--accent-color);
-  }
-
-  &:hover svg,
-  &:focus svg {
     fill: var(--background-color);
   }
 }

@@ -221,6 +221,7 @@ section {
 
 .card-set__link {
   display: block;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-set__link:hover, .card-set__link:focus {
@@ -235,6 +236,7 @@ section {
 
 .card-content {
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 
 .card-content__title {
@@ -468,10 +470,6 @@ section {
 
 .name-card__icon-link:hover, .name-card__icon-link:focus {
   background-color: var(--accent-color);
-}
-
-.name-card__icon-link:hover svg,
-.name-card__icon-link:focus svg {
   fill: var(--background-color);
 }
 
